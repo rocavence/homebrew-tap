@@ -5,8 +5,7 @@ cask "flione" do
   sha256 arm:   "34e09ff152b8928fa089b5e91d03a390a1f4d04b6b7a99470078dff8e45c58f6",
          intel: "a236eef07c3260f246a5130d1bfff8e435757a855ff6d29f9581f9928f04b252"
 
-  url "https://github.com/rocavence/Flione-app/releases/download/v#{version}/Flione-#{version}-#{arch}.dmg",
-      verified: "github.com/rocavence/Flione-app/"
+  url "https://github.com/rocavence/Flione-app/releases/download/v#{version}/Flione-#{version}-#{arch}.dmg"
   name "Flione"
   desc "Music player for Jellyfin and YouTube Music"
   homepage "https://flione.rocavence.com/"
