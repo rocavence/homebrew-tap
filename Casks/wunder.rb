@@ -12,13 +12,13 @@ cask "wunder" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Wunder.app"
 
   # Signed ad hoc, not notarized: let it open without the "unidentified developer" stop.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Wunder.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Wunder.app"]
   end
 
   zap trash: [
