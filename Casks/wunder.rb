@@ -1,6 +1,6 @@
 cask "wunder" do
-  version "0.5.5"
-  sha256 "f9f40765cebe702a7e3002e36939a3481436a30867567cebc57a5cdc0c40c515"
+  version "0.5.6"
+  sha256 "123445ecd2cb104e10232830733e218da668ad73516216cc073df668d5aafc1a"
 
   url "https://github.com/rocavence/Wunderkammer/releases/download/v#{version}/Wunder.zip"
   name "Wunder"
