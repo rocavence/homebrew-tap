@@ -1,6 +1,6 @@
 cask "findly" do
   version "1.0.0"
-  sha256 "615b22aed2194f5fb3f6192274246ff9563939c52d42d5a245642a740da0f4e4"
+  sha256 "79639dbe4e93d492e33ea6bffb7e1f961fc99c85d96bc6a39f3045e1cff5be4b"
 
   url "https://github.com/rocavence/Findly-app/releases/download/v#{version}/Findly-#{version}.zip"
   name "Findly"
