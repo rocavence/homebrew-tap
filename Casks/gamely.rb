@@ -4,7 +4,7 @@ cask "gamely" do
 
   url "https://github.com/rocavence/Gamely-app/releases/download/v#{version}/Gamely-#{version}.zip"
   name "Gamely"
-  desc "Pauses Hot Corners while macOS Game Mode is on"
+  desc "Pauses Hot Corners while Game Mode is on"
   homepage "https://gamely.rocavence.com/"
 
   livecheck do
