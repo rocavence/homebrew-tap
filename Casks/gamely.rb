@@ -1,6 +1,6 @@
 cask "gamely" do
-  version "0.5.1"
-  sha256 "b39d0b91a7314a23ddbdce4de74f84ee723e49737ab09886d5e0255d48a27e13"
+  version "0.5.2"
+  sha256 "176b5caca0aa3e7fc39439d3de698857872b3dcbb9924292eb25041362fcf7d3"
 
   url "https://github.com/rocavence/Gamely-app/releases/download/v#{version}/Gamely-#{version}.zip"
   name "Gamely"
